@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace ECommerce.Data.Entities
 {
+    //App User
     public class AppUser : IdentityUser<int>
     {
         public string FirstName { get; set; }
